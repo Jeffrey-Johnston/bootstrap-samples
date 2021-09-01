@@ -1,0 +1,23 @@
+th {
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #ddd !important;
+}
+
+tr:nth-child(odd) {
+  background-color: #dadada93;
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    display: flex;
+  }
+
+  .jumbotron,
+  .table-container {
+    flex: 1;
+  }
+}
