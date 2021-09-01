@@ -1,5 +1,29 @@
+.jumbotron {
+  border-radius: 12px;
+  color: #eee;
+}
+
+.table-container {
+  border-radius: 12px;
+}
+
+.table {
+  margin-bottom: 0 !important;
+}
+
+.carousel {
+}
+
+h3 {
+}
+
+tbody {
+  overflow: auto;
+}
+
 th {
   text-align: center;
+  background-color: #dadada93;
 }
 
 td,
@@ -8,16 +32,38 @@ th {
 }
 
 tr:nth-child(odd) {
+  background-color: #dadadad8;
+}
+tr:nth-child(even) {
   background-color: #dadada93;
 }
 
-@media screen and (min-width: 992px) {
+.carousel {
+  border-radius: 12px !important;
+}
+
+.carousel-caption {
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.452);
+  backdrop-filter: blur(4px);
+}
+
+@media screen and (min-width: 768px) {
   section {
     display: flex;
+    max-height: 66vh;
   }
 
   .jumbotron,
   .table-container {
     flex: 1;
+  }
+
+  .table-container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
