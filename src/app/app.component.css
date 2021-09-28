@@ -1,20 +1,8 @@
 .jumbotron {
-  border-radius: 12px;
-  color: #eee;
-}
-
-.table-container {
-  border-radius: 12px;
 }
 
 .table {
   margin-bottom: 0 !important;
-}
-
-.carousel {
-}
-
-h3 {
 }
 
 tbody {
@@ -38,21 +26,9 @@ tr:nth-child(even) {
   background-color: #dadada93;
 }
 
-.carousel {
-  border-radius: 12px !important;
-}
-
-.carousel-caption {
-  left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.452);
-  backdrop-filter: blur(4px);
-}
-
 @media screen and (min-width: 768px) {
   section {
     display: flex;
-    max-height: 66vh;
   }
 
   .jumbotron,
@@ -62,8 +38,5 @@ tr:nth-child(even) {
 
   .table-container {
     height: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
 }
